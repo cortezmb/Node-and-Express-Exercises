@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello World
+    <h1>Name</h1>
+    <ul>
+        <li><a href="/dogs/0">Golden Retriever</a></li>
+        <li><a href="/dogs/1">Labrador</a></li>
+        <li><a href="/dogs/2">Chihauhua</a></li>
+    </ul>
+
+
+    <script>
+
+        fetch('http://localhost:3000/data')
+        .then(result => result.json)
+        .then(data => {
+            console.log(data);
+        })
+
+    </script>
+    
+</body>
+</html>

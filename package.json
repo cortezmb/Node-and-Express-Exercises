@@ -1,0 +1,23 @@
+{
+  "name": "and-express-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "expressExercises.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortezmb/Node-and-Express-Exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cortezmb/Node-and-Express-Exercises/issues"
+  },
+  "homepage": "https://github.com/cortezmb/Node-and-Express-Exercises#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
